@@ -18,21 +18,21 @@ add notes to a *Dish* and have a list of preferences which can be used to search
 When a new User is created, default dishes will be read from a file and added to the User's
 Recipe Book.
 
-Users will be shown a list of existing
-users and will be given a prompt to type commands in. Signing in will automatically
-display recommended dishes for the user based on their preferences (if any) and
-they will be able to access all of the recipe book's functionality.
+When the program is launched, the user will be able to enter their username to sign in to the program. If no users exist
+in the user list stored in the program, a user will be automatically created. Users have the option to create a new account, sign out, and access
+various features of the Recipe Book once they are signed in through commands in a prompt. Below is a list of commands that the user can input to interact with the Recipe Book. 
+
 
 Commands:
 
 * END exits the program
-* createAccount _USERNAME_ creates a new user and reads from dishinfo.txt to get a
-  default list of dishes and ingredients
-* signIn _USERNAME_ signs into the user's Recipe Book.
 * signOut signs out the current user
-* createDish _DISHNAME_ allows the user to create their own dish
+* Create Dish allows the user to create their own dish
 * Search accesses the search functionality, where users can pick their search filters
-* addIng _INGREDIENTNAME_ allows the user to add their own ingredients
+* Create Ingredient allows the user to add their own ingredients
 * setPreferences displays a list of allergy and diet options that the user can choose to set as default search parameters
 * addFavourite _DISHNAME_ puts a dish in a user's favourite list
 * getList returns a list of ingredients needed to make various dishes in user's favourites
+* Preferences displays the current user's preferences 
+* Favourites displays the current user's favourite dishes 
+* View Dishes displays a random list of dishes in the Recipe Book
